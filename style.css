@@ -1,11 +1,11 @@
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body {
-    margin: 1% auto;
+    margin: 10px auto;
     padding: 0;
-    width: 80%;
+    width: 960px;
     text-align: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
@@ -17,16 +17,16 @@ header, nav, footer{
     padding-top: 20px;
     height: 10%;
     background: #ebebeb;
-    margin: 0.5% auto;
+    margin: 10px auto;
 }
 
 aside, section{
     background: #ebebeb;
-    margin: 1% auto;
+    /* margin: 10px auto; */
     height: 50%;
     float: left;
-    margin:5px;
-    width: calc(50% - 5px);
+    margin: 5px;
+    width: 475px;
     padding-top: 50px;
 }
 
@@ -47,10 +47,10 @@ aside {
 
 article {
     background: #777;
-    margin: 1% auto;
+    margin: 10px auto;
     height: 60%;
     position: relative;
-    top: 25%;
+    top: 10%;
     color: white;
     width: 95%;
     padding-top:30px;
@@ -59,7 +59,7 @@ article {
 
 h1, p {
     background: #ebebeb;
-    margin: 1% auto;
+    margin: 10px auto;
     width: 95%;
     height: 25%;
     position: relative;
